@@ -13,7 +13,7 @@ body {
 .card {
     height: 400px;
     width: 500px;
-    background-image: url('./img/Chacal.jpg');
+    background-image: url('./img/sky.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -47,7 +47,8 @@ body {
 }
 
 .card-wrapper h2 {
-    font-size: 40px;
+    font-family: 'Nothing You Could Do', cursive;
+    font-size: 35px;
     text-transform: uppercase;
     letter-spacing: 4px;
     margin: 0;
@@ -77,4 +78,9 @@ body {
     opacity: 1;
     visibility: visible;
     font-size: 14px;
-} 
+}
+
+#logo {
+    height: 200px;
+    width: 200px;
+}
